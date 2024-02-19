@@ -17,8 +17,8 @@ const Scene = () => {
 
   return (
     <group>
-      <Floor />
       <Player walk={2} jump={5} input={() => getInput(get)} />
+      <Floor />
     </group>
   );
 };
